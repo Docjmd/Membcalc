@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.reactgrid {
+  font-family: "DM Sans", sans-serif;
+}
+.disabled {
+  color: #666;
+  background-color: #8181810e;
+}
+.disabled2 {
+  color: #666;
+  background-color: #8181810e;
+  text-indent:1.5em;
+  
+}
+.reactgrid-content .rg-pane .rg-cell {
+  padding: 8px 8px;
+  font-size: 11px;
+}
+.padding-left-lg {
+  padding-left: 24px !important;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.font-bold {
+  font-weight: 600;
+}
+.text-red {
+  color: #cf1322;
+}
+.text-blue {
+  color: #2797ff;
+  font-weight: 600;
+}
+.text-green {
+  color: #107c41;
+  font-weight: 600;
+  background-color: #e7f2ec;
+}
+.light-green-bg {
+  background-color: #e7f2ec;
+}
+.text-md {
+  font-size: 11px !important;
+}
+.text-lg {
+  font-size: 12px !important;
+}
+.rg-celleditor {
+  font-size: 11px;
+  padding: 0px 0px;
+  border-width: 0px;
+  box-shadow: 0px 0px 8px #2797ff;
+}
+.rg-celleditor input {
+  font-family: "DM Sans", sans-serif;
+}
+.reactgrid-content .rg-pane .rg-cell-focus {
+  border-color: #2797ff;
+  border-width: 2px;
+}
+
+.chart {
+  width: 1040px;
+  height: 200px;
+}
