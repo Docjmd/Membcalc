@@ -122,7 +122,7 @@ export function calc(
         : (lastvalue =
             lastvalue *
             Math.exp(
-              (WCF[idx - 1] / datatable[0].values[idx]) * (rejection - 1)
+              (datatable[5].values[idx] / datatable[0].values[idx]) * (rejection - 1)
             ) *
             Math.pow(WCF[idx - 1], rejection))
     );
