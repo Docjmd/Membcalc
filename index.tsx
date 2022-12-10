@@ -16,8 +16,8 @@
 import * as React from "react";
 import { render } from "react-dom";
 import { useState } from "react";
-import { columns as dataColumns } from "./columns";
-import { rows as dataRows, headerRow } from "./rows";
+import { columns as dataColumns } from "./src/columns";
+import { rows as dataRows, headerRow } from "./src/rows";
 import {
   ReactGrid,
   Row,
@@ -25,10 +25,10 @@ import {
   ChevronCell,
   NumberCell
 } from "@silevis/reactgrid";
-import { Recetaunit, composition } from "./data";
+import { Recetaunit, composition } from "./src/data";
 import "@silevis/reactgrid/styles.css";
 import "./styles.css";
-import { calc } from "./Outputvariables";
+import { calc } from "./src/Outputvariables";
 import { Line } from "react-chartjs-2";
 import { getChartOptions } from "./chart/getChartOptions";
 import { getChartData } from "./chart/getChartData";
