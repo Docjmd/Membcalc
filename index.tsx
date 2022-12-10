@@ -189,6 +189,7 @@ const MembApp: React.FunctionComponent = () => {
         onCellsChanged={handleChanges}
         stickyTopRows={1}
         stickyLeftColumns={1}
+        enableRangeSelection
       />
     </div>
   );
