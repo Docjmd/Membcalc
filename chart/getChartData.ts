@@ -1,5 +1,5 @@
 import { ChartData } from "chart.js";
-import { headerline2 } from "./data";
+import { headerline2 } from "../data";
 
 // const prueba = calc(73000).datatable;
 // console.log(prueba);

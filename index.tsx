@@ -30,8 +30,8 @@ import "@silevis/reactgrid/styles.css";
 import "./styles.css";
 import { calc } from "./Outputvariables";
 import { Line } from "react-chartjs-2";
-import { getChartOptions } from "./getChartOptions";
-import { getChartData } from "./getChartData";
+import { getChartOptions } from "./chart/getChartOptions";
+import { getChartData } from "./chart/getChartData";
 
 /* 
   searches for a chevron cell in given row
