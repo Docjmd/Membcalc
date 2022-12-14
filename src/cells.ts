@@ -12,6 +12,10 @@ const numberFormat = new Intl.NumberFormat("de", {
   minimumFractionDigits: 0,
   maximumFractionDigits: 2
 });
+const numberFormat2 = new Intl.NumberFormat("de", {
+  minimumFractionDigits: 3,
+  maximumFractionDigits: 3
+});
 
 export const textCell = (
   text: string,
@@ -56,6 +60,18 @@ export const numberCell = (
   className,
   style,
   format: numberFormat
+});
+
+export const numberCell2 = (
+  value: number,
+  className = "",
+  style?: CellStyle
+): NumberCell => ({
+  type: "number",
+  value,
+  className,
+  style,
+  format: numberFormat2
 });
 
 export const nonEditable = (cell: DefaultCellTypes): DefaultCellTypes => ({

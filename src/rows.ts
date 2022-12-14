@@ -9,7 +9,8 @@ import {
   //showZero,
   //noSideBorders,
   chevronCell,
-  chevronCellchild
+  chevronCellchild,
+  numberCell2
 } from "./cells";
 import { headerline, emptylinenoside } from "./data";
 import { getConfig } from "./Outputvariables";
@@ -200,7 +201,7 @@ export const rows = (datatable): Row[] => [
       ...datatable
         .find((x) => x.rowId === "WCF")
         .values.slice(1)
-        .map((x) => numberCell(x, "text-green"))
+        .map((x) => numberCell2(x, "text-green"))
     ]
   },
   {
